@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+    <color name="tutorial_text_title_dark">#ffffff</color>
+    <color name="tutorial_text_button_dark">#de1e9391</color>
+    <color name="tutorial_text_body_dark">#ffffff</color>
+
+    <color name="tutorial_text_title_light">#ffffff</color>
+    <color name="tutorial_text_button_light">#de1e9391</color>
+    <color name="tutorial_text_body_light">#ffffff</color>
+
+
+    <style name="tutorial_textAppearance" parent="@android:style/TextAppearance">
+        <item name="carbon_fontPath">"fonts/BTabassom.ttf"</item>
+    </style>
+
+
+    <style name="tutorial_textAppearance.Title">
+        <item name="android:textSize">35sp</item>
+        <item name="android:textColor">@color/tutorial_text_title_dark</item>
+    </style>
+
+    <style name="tutorial_textAppearance.Body">
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">@color/tutorial_text_title_dark</item>
+    </style>
+
+    <style name="tutorial_textAppearance.Button">
+        <item name="android:textSize">35sp</item>
+        <item name="android:textColor">@color/tutorial_text_button_dark</item>
+    </style>
+
+</resources>

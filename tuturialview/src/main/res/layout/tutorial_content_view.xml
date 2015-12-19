@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<carbon.widget.RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+   <carbon.widget.RelativeLayout
+       android:id="@+id/tutorial_view_contentContainer"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content">
+       <carbon.widget.TextView
+           android:id="@+id/tutorial_view_title"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_alignParentRight="true"
+           android:layout_alignParentTop="true"
+           android:gravity="center"
+           android:text="عنوان آزمایشی"
+           android:textAppearance="?attr/tutorial_textAppearance.Title"/>
+       <carbon.widget.TextView
+           android:layout_below="@id/tutorial_view_title"
+           android:visibility="visible"
+           android:id="@+id/tutorial_view_content"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_alignParentRight="true"
+           android:gravity="center"
+           android:minHeight="20dp"
+           android:typeface="serif"
+           android:scrollbars="horizontal"
+           android:text="برای دستیابی به منوی اصلی برنامه بر روی این دکمه کلیک کنید.برای دستیابی به منوی اصلی برنامه بر روی این دکمه کلیک کنید.برای دستیابی به منوی اصلی برنامه بر روی این دکمه کلیک کنید.برای دستیابی به منوی اصلی برنامه بر روی این دکمه کلیک کنید.برای دستیابی به منوی اصلی برنامه بر روی این دکمه کلیک کنید.برای دستیابی به منوی اصلی برنامه بر روی این دکمه کلیک کنید.برای دستیابی به منوی اصلی برنامه بر روی این دکمه کلیک کنید.برای دستیابی به منوی اصلی برنامه بر روی این دکمه کلیک کنید.برای دستیابی به منوی اصلی برنامه بر روی این دکمه کلیک کنید.برای دستیابی به منوی اصلی برنامه بر روی این دکمه کلیک کنید.برای دستیابی به منوی اصلی برنامه بر روی این دکمه کلیک کنید."
+           android:textAppearance="?attr/tutorial_textAppearance.Body"
+           />
+   </carbon.widget.RelativeLayout>
+    <carbon.widget.Button
+        android:id="@+id/tutorial_view_dismissButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/Butoon"
+        android:layout_margin="5dp"
+        android:layout_alignParentBottom="true"
+        android:text="گرفتمش!"/>
+    <carbon.widget.Button
+        android:id="@+id/tutorial_view_skipButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/Butoon"
+        android:layout_margin="5dp"
+        android:layout_alignParentTop="true"
+        android:text="رد کردن!"/>
+
+</carbon.widget.RelativeLayout>

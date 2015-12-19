@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="TutorialView">
+        <attr name="tutorial_textAppearance.Title" format="reference" />
+        <attr name="tutorial_textAppearance.Body" format="reference" />
+        <attr name="tutorial_textAppearance.Button" format="reference" />
+    </declare-styleable>
+</resources>

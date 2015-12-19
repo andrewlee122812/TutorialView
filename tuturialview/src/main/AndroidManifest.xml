@@ -1,0 +1,9 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="ayalma.ir.tuturialview">
+    <application >
+        <activity
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:name="ayalma.ir.tuturialview.TutorialActivity" android:theme="@style/tutorialView.Theme.Light" >
+        </activity>
+    </application>
+</manifest>
